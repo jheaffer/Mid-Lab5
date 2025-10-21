@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Diet & Exercise Tracker</title>
+</head>
+<body>
+    <table width="80%" align="center" cellpadding="8" cellspacing="0">
+    <tbody>
+        <tr>
+            <td colspan="2" align="center" bgcolor="lightblue">
+                <h1>Weekly Diet & Exercise Tracker</h1>
+                <p>Monitor your meals and workouts for a healthier lifestyle.</p>
+              </td>
+            </td>
+        </tr>
+        <tr>
+            <td width="55%" valign="top">
+                <fieldset>
+                  <legend><strong>Personal Info</strong></legend>
+                  <table cellpadding="4" cellspacing="0" border="0">
+                    <tbody><tr><td>Name:</td><td><input type="text" name="name" required=""></td></tr>
+                    <tr><td>Age:</td><td><input type="number" name="age" min="15" max="100"></td></tr>
+                    <tr>
+                      <td>Gender:</td>
+                      <td>
+                        <select name="gender">
+                          <option value="">--Select--</option>
+                          <option>Male</option>
+                          <option>Female</option>
+                        </select>
+                      </td>
+                    </tr>
+                  </tbody></table>
+                </fieldset>
+                <br>
+                <fieldset>
+                  <legend><strong>Diet Tracking (Mon-Fri)</strong></legend>
+                  <table cellpadding="4" cellspacing="0" border="0">
+                    <tbody><tr><th>Day</th><th>Calories</th></tr>
+                    <tr><td>Mon</td><td><input type="number" name="mon_cal" min="0"></td></tr>
+                    <tr><td>Tue</td><td><input type="number" name="tue_cal" min="0"></td></tr>
+                    <tr><td>Wed</td><td><input type="number" name="wed_cal" min="0"></td></tr>
+                    <tr><td>Thu</td><td><input type="number" name="thu_cal" min="0"></td></tr>
+                    <tr><td>Fri</td><td><input type="number" name="fri_cal" min="0"></td></tr>
+                  </tbody></table>
+                </fieldset>
+                <br>
+                <fieldset>
+                  <legend><strong>Exercise (Mon-Fri)</strong></legend>
+                  <table cellpadding="4" cellspacing="0" border="0">
+                    <tbody><tr><th>Day</th><th>Minutes</th></tr>
+                    <tr><td>Mon</td><td><input type="number" name="mon_ex" min="0"></td></tr>
+                    <tr><td>Tue</td><td><input type="number" name="tue_ex" min="0"></td></tr>
+                    <tr><td>Wed</td><td><input type="number" name="wed_ex" min="0"></td></tr>
+                    <tr><td>Thu</td><td><input type="number" name="thu_ex" min="0"></td></tr>
+                    <tr><td>Fri</td><td><input type="number" name="fri_ex" min="0"></td></tr>
+                  </tbody></table>
+                </fieldset>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+              </form>
+            </td>
+            <td width="55%" valign="top" align="center">
+              <iframe width="650" height="450" src="https://www.youtube.com/watch?v=rc3ZDoheMQs&list=PLMAguoAuLYZN7-RjAIYNMVV9GB3aZNEtF" allowfullscreen=""></iframe>
+              <p>Watch this video for tips on healthy eating and exercise!</p>
+            </td>
+          </tr>
+    </tbody>
+    </table>
+</body>
+</html>
